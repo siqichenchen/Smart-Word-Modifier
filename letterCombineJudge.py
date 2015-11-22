@@ -136,7 +136,7 @@ for letters in listtest:
 listtest= sorted(score2.items(), key=lambda score2:score2[1])
 for letters in listtest:
     fw2.write(str(letters)+'\n')
-##print (scoreByRanking('vitualbox'))
+print (scoreByRanking('vitualbox'))
 fw1.close()
 fw2.close()
 fr1.close()
